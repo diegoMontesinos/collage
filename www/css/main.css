@@ -1,0 +1,64 @@
+
+div#main-container {
+  width: 1000px;
+  height: 1000px;
+
+  overflow: hidden;
+  position: absolute;
+}
+
+div.layer {
+  position: absolute;
+  pointer-events: none;
+
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+div#layer-bg {
+  width: 100%;
+  height: 1000px;
+
+  background-image: url('../img/beatles/bg.png');
+}
+
+div#layer-1 {
+  width: 415px;
+  height: 474px;
+
+  left: 283px;
+  top: 221px;
+
+  background-image: url('../img/beatles/layer-1.png');
+}
+
+div#layer-2 {
+  width: 164px;
+  height: 229px;
+
+  left: 836px;
+  top: 446px;
+
+  background-image: url('../img/beatles/layer-2.png');
+}
+
+div#layer-3 {
+  width: 763px;
+  height: 136px;
+
+  left: 95px;
+  top: 728px;
+
+  background-image: url('../img/beatles/layer-3.png');
+}
+
+div#layer-4 {
+  width: 149px;
+  height: 201px;
+
+  left: 378px;
+  top: 784px;
+
+  background-image: url('../img/beatles/layer-4.png');
+}
