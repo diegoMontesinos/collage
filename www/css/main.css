@@ -1,10 +1,40 @@
 
-div#main-container {
+div#title {
+  width: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+}
+
+div#title h1 {
+  margin-bottom: 3px;
+}
+
+div#instructions {
+  width: 50%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div#instructions ol, div#instructions h4 {
+  margin-top: 0;
+  margin-bottom: 3px;
+}
+
+div#collage-container {
   width: 1000px;
   height: 1000px;
 
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+
+  transform: scale(0.9);
+
   overflow: hidden;
-  position: absolute;
 }
 
 div.layer {
@@ -17,7 +47,7 @@ div.layer {
 }
 
 div#layer-bg {
-  width: 100%;
+  width: 1000px;
   height: 1000px;
 
   background-image: url('../img/beatles/bg.png');
@@ -28,7 +58,7 @@ div#layer-1 {
   height: 474px;
 
   left: 283px;
-  top: 221px;
+  top: 223px;
 
   background-image: url('../img/beatles/layer-1.png');
 }
@@ -61,4 +91,144 @@ div#layer-4 {
   top: 784px;
 
   background-image: url('../img/beatles/layer-4.png');
+}
+
+div#layer-5 {
+  width: 145px;
+  height: 152px;
+
+  left: 594px;
+  top: 593px;
+
+  background-image: url('../img/beatles/layer-5.png');
+}
+
+div#layer-6 {
+  width: 114px;
+  height: 100px;
+
+  left: 84px;
+  top: 611px;
+
+  background-image: url('../img/beatles/layer-6.png');
+}
+
+div#layer-7 {
+  width: 231px;
+  height: 327px;
+
+  left: 60px;
+  top: 249px;
+
+  background-image: url('../img/beatles/layer-7.png');
+}
+
+div#layer-8 {
+  width: 95px;
+  height: 398px;
+
+  left: 0px;
+  top: 251px;
+
+  background-image: url('../img/beatles/layer-8.png');
+}
+
+div#layer-9 {
+  width: 95px;
+  height: 143px;
+
+  left: 164px;
+  top: 557px;
+
+  background-image: url('../img/beatles/layer-9.png');
+}
+
+div#layer-10 {
+  width: 103px;
+  height: 357px;
+
+  left: 670px;
+  top: 226px;
+
+  background-image: url('../img/beatles/layer-10.png');
+}
+
+div#layer-11 {
+  width: 93px;
+  height: 183px;
+
+  left: 719px;
+  top: 276px;
+
+  background-image: url('../img/beatles/layer-11.png');
+}
+
+div#layer-12 {
+  width: 809px;
+  height: 175px;
+
+  left: 0px;
+  top: 171px;
+
+  background-image: url('../img/beatles/layer-12.png');
+}
+
+div#layer-13 {
+  width: 835px;
+  height: 128px;
+
+  left: 0px;
+  top: 129px;
+
+  background-image: url('../img/beatles/layer-13.png');
+}
+
+div#layer-14 {
+  width: 796px;
+  height: 146px;
+
+  left: 34px;
+  top: 61px;
+
+  background-image: url('../img/beatles/layer-14.png');
+}
+
+div#layer-15 {
+  width: 178px;
+  height: 324px;
+
+  left: 752px;
+  top: 262px;
+
+  background-image: url('../img/beatles/layer-15.png');
+}
+
+div#layer-16 {
+  width: 84px;
+  height: 174px;
+
+  left: 716px;
+  top: 408px;
+
+  background-image: url('../img/beatles/layer-16.png');
+}
+
+div#layer-17 {
+  width: 193px;
+  height: 118px;
+
+  left: 135px;
+  top: 857px;
+
+  background-image: url('../img/beatles/layer-17.png');
+}
+
+div#layer-18 {
+  width: 315px;
+  height: 119px;
+
+  left: 498px;
+  top: 821px;
+
+  background-image: url('../img/beatles/layer-18.png');
 }
